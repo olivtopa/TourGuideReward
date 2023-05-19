@@ -9,7 +9,7 @@ import java.util.UUID;
 public class RewardCentralService {
 
     public int getAttractionRewardPoints(UUID attractionId, UUID userId) {
-            RewardCentral rewardCentral = new RewardCentral();
-            return rewardCentral.getAttractionRewardPoints(attractionId, userId);
+        RewardCentral rewardCentral = new RewardCentral();
+        return rewardCentral.getAttractionRewardPoints(attractionId, userId);
     }
 }

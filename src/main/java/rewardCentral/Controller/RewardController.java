@@ -15,7 +15,7 @@ public class RewardController {
     RewardCentralService rewardCentralService;
 
     @RequestMapping("/getRewardPoints")
-    public int getAttractionRewardPoints(@RequestParam UUID attractionId, @RequestParam UUID userId){
-        return rewardCentralService.getAttractionRewardPoints(attractionId,userId);
+    public int getAttractionRewardPoints(@RequestParam UUID attractionId, @RequestParam UUID userId) {
+        return rewardCentralService.getAttractionRewardPoints(attractionId, userId);
     }
 }
